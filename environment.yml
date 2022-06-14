@@ -1,0 +1,6 @@
+name: example_container
+dependencies:
+   - python=3.9
+   - numpy
+   - matplotlib
+   - nibabel
