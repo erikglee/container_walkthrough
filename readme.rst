@@ -3,7 +3,7 @@ Intro
 
 For an overview on the importance of managing your computational environment and
 the benefits of containers, see Chapter 4 (and especially 4.2) of the Neuroimaging
-and Data Science book.
+and Data Science book. (http://neuroimaging-data-science.org/content/002-datasci-toolbox/003-docker.html)
 
 Overview
 --------
