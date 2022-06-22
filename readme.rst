@@ -15,5 +15,5 @@ When we make a container, we are going to roughly follow these steps:
 3. Create a Dockerfile that will describe how to run your code along with any dependencies
 4. Use the Dockerfile to build your container
 5. Export the container as a tar file, and convert it to a Singularity container so
-   people can run the container without "sudo" privelages
+   people can run the container without administrative privelages
 
