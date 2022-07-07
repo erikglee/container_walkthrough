@@ -2,9 +2,9 @@
 FROM python:latest
 
 # Prepare environment
-RUN pip install numpy==1.19.2
-RUN pip install nibabel==3.2.2
-RUN pip install matplotlib==3.5.1
+RUN python3 -m pip install numpy==1.19.2
+RUN python3 -m pip install nibabel==3.2.2
+RUN python3 -m pip install matplotlib==3.5.1
 
 
 #Input some test data that we can use
