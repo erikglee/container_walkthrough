@@ -1,5 +1,5 @@
-#The base image is the latest ubuntu docker image
-FROM ubuntu:latest 
+#Python base image
+FROM python:latest
 
 # Prepare environment
 RUN apt-get update && \
