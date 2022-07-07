@@ -2,7 +2,7 @@
 FROM python:latest
 
 # Prepare environment
-RUN python3 -m pip install numpy==1.19.2
+RUN python3 -m pip install numpy
 RUN python3 -m pip install nibabel==3.2.2
 RUN python3 -m pip install matplotlib==3.5.1
 
