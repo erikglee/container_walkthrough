@@ -2,27 +2,6 @@
 FROM python:latest
 
 # Prepare environment
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends \
-                    apt-utils \
-                    autoconf \
-                    build-essential \
-                    bzip2 \
-                    ca-certificates \
-                    curl \
-                    gcc \
-                    git \
-                    gnupg \
-                    libtool \
-                    lsb-release \
-                    pkg-config \
-                    unzip \
-                    wget \
-                    xvfb \
-                    zlib1g \
-                    pip && \
-    apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/
-
 RUN pip install numpy==1.19.2
 RUN pip install nibabel==3.2.2
 RUN pip install matplotlib==3.5.1
